@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+h1{
+	spacing:1px;
+	text-align:center;
+}
+#table-1{
+	border-collapse: collapse;
+	
+}
+ #table-1 td {
+            border: 1px solid black;
+            padding: 1px;	 
+        }
+
+#table-2{
+	border-left:1px solid black;
+	margin-top:30px;
+}
+#table-3{
+	border-collapse:collapse;
+	width:100%;
+	margin-top:30px;
+}
+
+#table-3 td{
+	border:1px solid black;
+}
+
+#green{
+	background-color:green;
+}
+
+#blue{
+	background-color:blue;
+}
+
+#row1 , #row3{
+	height:15px;
+}
+
+#row2{
+	display:grid;
+	grid-auto-flow: column;
+	grid-template-column:1fr 1fr 1fr;
+	
+}
+
+#row2 img{
+	width:250px;
+}
+
